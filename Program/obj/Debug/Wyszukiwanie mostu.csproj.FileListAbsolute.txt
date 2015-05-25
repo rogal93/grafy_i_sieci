@@ -1,0 +1,13 @@
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\bin\Debug\Wyszukiwanie mostu.exe.config
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\bin\Debug\Wyszukiwanie mostu.exe
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\bin\Debug\Wyszukiwanie mostu.pdb
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie mostu.csprojResolveAssemblyReference.cache
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie_mostu.Form1.resources
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie_mostu.Properties.Resources.resources
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie mostu.csproj.GenerateResource.Cache
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie mostu.exe
+c:\users\damian\documents\visual studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie mostu.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\bin\Debug\Wyszukiwanie mostu.exe.manifest
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\bin\Debug\Wyszukiwanie mostu.application
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie mostu.exe.manifest
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\Grafy i sieci\Wyszukiwanie mostu\obj\Debug\Wyszukiwanie mostu.application

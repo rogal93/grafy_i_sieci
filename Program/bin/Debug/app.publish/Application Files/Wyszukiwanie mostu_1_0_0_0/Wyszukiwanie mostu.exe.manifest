@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Wyszukiwanie mostu.exe" version="1.0.0.0" publicKeyToken="c9369670878ca7a7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Wyszukiwanie mostu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Wyszukiwanie mostu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wyszukiwanie mostu.exe" size="270848">
+      <assemblyIdentity name="Wyszukiwanie mostu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DQVC6TQn9ITnefJm699JnH833Jt9aA7I0lMt5C/WdFY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Wyszukiwanie mostu.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ROGAL\Damian" issuerKeyHash="4d709be8b960ba39d21a3dd251be88adffe02965" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hG8cqZ/2dWqTDGApVoNyc21fxtP8l4xxmh2nKbQxmhQ=</DigestValue></Reference></SignedInfo><SignatureValue>D/iNGO7aAVR+bIkDIozlCG1u89dZ0tlTii51F+BfO8m8VYNexSLBMjm5J2IO12DnCYUAo9z7A0hpRo+4v+sTYeneG2pxHXXdd78v9SRjEPZ+Ujbq5JlS3TE1gYMN/ThsINGP6oM4Hnd3sdytenUlOkKSEPMwiCCanJkEH+x466k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vcTdMaBYWmmTsxCa0toMufHuRy9O8ZIC3AUjkEMzYLYtIQenIILybfg9g5prNISBGgjusyPjhcf9kKZUn0Ao3Bm0TuqqsZJm+JErueRurczXiDUzfLKE05pivbkzbNIAaEqOEzddPMGHmh/CFbTv+4TYuT/wh34OO33xLmOlVDs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="149a31b429a71d9a718c97fcd3c65f6d7372835629600c936a75f69fa91c6f84" Description="" Url=""><as:assemblyIdentity name="Wyszukiwanie mostu.exe" version="1.0.0.0" publicKeyToken="c9369670878ca7a7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ROGAL\Damian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QUXBOQLBpXrgrMVFrrhBQd4CrBPMTGN+zIagFFW8rek=</DigestValue></Reference></SignedInfo><SignatureValue>qxJPmuMhse5KPqPBM4LEdruYwSJf8AbTYnOw56SlgDNvSe/wND9PB2Osh2oRot7gbsSjglBiBlJcwlMGdo2RXu+RebTtGdAj61gOE5qjp0H15EjbJr8+/hlcxZ5FfcHiuZuDbkiZM6jiBcjK+/5GBiJSUg6spPZiVBc4WwHtTiI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vcTdMaBYWmmTsxCa0toMufHuRy9O8ZIC3AUjkEMzYLYtIQenIILybfg9g5prNISBGgjusyPjhcf9kKZUn0Ao3Bm0TuqqsZJm+JErueRurczXiDUzfLKE05pivbkzbNIAaEqOEzddPMGHmh/CFbTv+4TYuT/wh34OO33xLmOlVDs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQYt+YKy7YCItOWUYXJ0eeEjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUgBPAEcAQQBMAFwARABhAG0AaQBhAG4wHhcNMTQwNjExMjEwMzMwWhcNMTUwNjEyMDMwMzMwWjAjMSEwHwYDVQQDHhgAUgBPAEcAQQBMAFwARABhAG0AaQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL3E3TGgWFppk7MQmtLaDLnx7kcvTvGSAtwFI5BDM2C2LSEHpyCC8m34PYOaazSEgRoI7rMj44XH/ZCmVJ9AKNwZtE7qqrGSZviRK7nkbq3M14g1M3yyhNOaYr25M2zSAGhKjhM3XTzBh5ofwhW07/uE2Lk/8Id+Djt98S5jpVQ7AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAoBw2lcyZLsY7mNFaYzXZ3M6UCYNRqH0Pcczq7K5AnxNx21PwSsUst33J7ULGh6Uc/eFoKwUKnVotnniz7dixraznSbD8s3GJlU5mjBYfzTVQ3TpHmisUeN8eDRSsHfg1fXiNuzfbhD4I1iq+4VUsCuijt/VKZymMqSQipYRQtKU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
